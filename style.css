@@ -108,3 +108,39 @@ nav ul a:after {
     margin-right: 20px;
     margin-bottom: 0;
 }
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.project-resume {
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: var(--lighter-color);
+}
+
+.project p {
+    margin: 0;
+    color: var(--lightest-color);
+    margin-bottom: 5px;
+}
+
+.project-pictures {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.project-pictures img {
+    max-width: 100px;
+    margin-right: 20px;
+}
