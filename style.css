@@ -1,0 +1,55 @@
+/* Pallete: https://visme.co/blog/wp-content/uploads/2016/09/website4-1024x512.jpg  */
+
+:root {
+    --primary-color: #05386b;
+    --secondary-color: #379683;
+    --light-color: #5CDB95;
+    --lighter-color: #8EE4AF;
+    --lightest-color: #EDF5E1;
+}
+
+* {
+    font-family: "Arial", sans-serif;
+    color: var(--secondary-color);
+}
+
+body {
+    background: var(--primary-color);
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content p {
+    margin: 0 20%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul a:hover:after {
+    width: 100%;
+}
+
+nav ul a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    min-height: 1px;
+    width: 0;
+    background: var(--light-color);
+    transition: width .15s;
+}
