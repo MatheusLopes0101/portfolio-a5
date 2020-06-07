@@ -100,6 +100,10 @@ nav ul a:after {
     align-items: center;
 }
 
+.skill-list p {
+    margin: 0;
+}
+
 .skill-list li:not(:last-of-type) {
     margin-right: 20px;
     margin-bottom: 0;
